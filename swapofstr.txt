@@ -1,0 +1,9 @@
+s='HackerRank.com presents "Pythonist 2".'
+result= ''
+for t in s:
+
+    if t>='A' and t<= 'Z':
+        result += t.lower()
+    else:
+        result +=t.upper()
+print("{}".format(result))
